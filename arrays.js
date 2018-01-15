@@ -28,8 +28,7 @@ function destructivelyRemoveElementFromBeginningOfArray(arrayToEdit) {
 }
 
 function removeElementFromBeginningOfArray(arrayToEdit) {
-  var newArray = arrayToEdit.slice(1);
-  return newArray
+  return arrayToEdit = arrayToEdit.slice(1)
 }
 
 function destructivelyRemoveElementFromEndOfArray(arrayToEdit) {
