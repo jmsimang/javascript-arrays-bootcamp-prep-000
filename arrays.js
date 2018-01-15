@@ -23,3 +23,9 @@ function destructivelyAddElementToEndOfArray(arrayToEdit, element) {
 function accessElementInArray(arrayToSearch, index) {
   return arrayToSearch[index]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(arrayToEdit) {
+  return arrayToEdit.shift()
+}
+
+function 
