@@ -5,7 +5,7 @@ function addElementToBeginningOfArray(arrayToEdit, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(arrayToEdit, element) {
-  arrayToEdit = [element, ...arrayToEdit]
+  newArray = [element, ...arrayToEdit]
   return newArray
 }
 
