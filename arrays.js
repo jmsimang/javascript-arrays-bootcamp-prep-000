@@ -28,12 +28,13 @@ function destructivelyRemoveElementFromBeginningOfArray(arrayToEdit) {
 }
 
 function removeElementFromBeginningOfArray(arrayToEdit) {
-  var arrayToEdit = arrayToEdit.slice(1);
+  var newArray = arrayToEdit.slice(1);
   return newArray
 }
 
 function destructivelyRemoveElementFromEndOfArray(arrayToEdit) {
-  return arrayToEdit.pop()
+  arrayToEdit.pop()
+  return arrayToEdit
 }
 
 function removeElementFromEndOfArray(arrayToEdit) {
